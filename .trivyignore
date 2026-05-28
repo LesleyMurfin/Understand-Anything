@@ -1,0 +1,4 @@
+# CVEs suppressed: understand-anything-plugin upstream dependencies.
+# These DoS vulnerabilities apply to server contexts, not VS Code plugin tooling.
+CVE-2026-42570
+CVE-2026-33671
