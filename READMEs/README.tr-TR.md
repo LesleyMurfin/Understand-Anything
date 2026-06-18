@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/23482" target="_blank"><img src="https://trendshift.io/api/badge/repositories/23482" alt="Lum1104%2FUnderstand-Anything | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/23482" target="_blank"><img src="https://trendshift.io/api/badge/repositories/23482" alt="Understand Anything | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="#-hızlı-başlangıç"><img src="https://img.shields.io/badge/Hızlı_Başlangıç-blue" alt="Hızlı Başlangıç" /></a>
-  <a href="https://github.com/Lum1104/Understand-Anything/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lisans-MIT-yellow" alt="Lisans: MIT" /></a>
+  <a href="https://github.com/Egonex-AI/Understand-Anything/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lisans-MIT-yellow" alt="Lisans: MIT" /></a>
   <a href="https://docs.anthropic.com/en/docs/claude-code"><img src="https://img.shields.io/badge/Claude_Code-8A2BE2" alt="Claude Code" /></a>
   <a href="#codex"><img src="https://img.shields.io/badge/Codex-000000" alt="Codex" /></a>
   <a href="#vs-code--github-copilot"><img src="https://img.shields.io/badge/Copilot-24292e" alt="Copilot" /></a>
@@ -32,9 +32,9 @@
 </p>
 
 <p align="center">
-  <strong>💬 <a href="https://discord.gg/pydat66RY">Discord topluluğuna katıl &rarr;</a></strong>
+  <strong>An open-source project from <a href="https://github.com/Egonex-AI">Egonex</a></strong>
   <br />
-  <em>Sorular sor, yaptıklarını paylaş, topluluktan yardım al.</em>
+  <em>Originally created by <a href="https://github.com/Lum1104">Lum1104</a>.</em>
 </p>
 
 ---
@@ -104,7 +104,7 @@ Alan görünümüne geçin ve kodunuzun gerçek iş süreçleriyle nasıl eşle�
 ### 1. Eklentiyi yükle
 
 ```bash
-/plugin marketplace add Lum1104/Understand-Anything
+/plugin marketplace add Egonex-AI/Understand-Anything
 /plugin install understand-anything
 ```
 
@@ -178,27 +178,27 @@ Understand-Anything birden fazla AI kodlama platformunda çalışır.
 ### Claude Code (Yerli)
 
 ```bash
-/plugin marketplace add Lum1104/Understand-Anything
+/plugin marketplace add Egonex-AI/Understand-Anything
 /plugin install understand-anything
 ```
 
-### Tek satırlık kurulum (Codex / OpenCode / OpenClaw / Antigravity / Gemini CLI / Pi Agent / Vibe CLI / VS Code Copilot / Hermes / Cline / KIMI CLI)
+### Tek satırlık kurulum (Codex / OpenCode / OpenClaw / Antigravity / Gemini CLI / Pi Agent / Vibe CLI / VS Code Copilot / Hermes / Cline / KIMI CLI / Nanobot / Kiro)
 
 **macOS / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash
 # veya platformu doğrudan geçirerek soruyu atla:
-curl -fsSL https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.sh | bash -s codex
+curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash -s codex
 ```
 
 **Windows (PowerShell):**
 ```powershell
-iwr -useb https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.ps1 | iex
 ```
 
 Kurulum betiği depoyu `~/.understand-anything/repo` dizinine klonlar ve seçilen platform için uygun sembolik bağlantıları oluşturur. Sonrasında CLI/IDE'ni yeniden başlat.
 
-- Desteklenen `<platform>` değerleri: `gemini`, `codex`, `opencode`, `pi`, `openclaw`, `antigravity`, `vibe`, `vscode`, `hermes`, `cline`, `kimi`
+- Desteklenen `<platform>` değerleri: `gemini`, `codex`, `opencode`, `pi`, `openclaw`, `antigravity`, `vibe`, `vscode`, `hermes`, `cline`, `kimi`, `nanobot`, `kiro`
 - Daha sonra güncelle: `./install.sh --update`
 - Kaldır: `./install.sh --uninstall <platform>`
 
@@ -206,7 +206,7 @@ Kurulum betiği depoyu `~/.understand-anything/repo` dizinine klonlar ve seçile
 
 Bu depo klonlandığında Cursor, eklentiyi `.cursor-plugin/plugin.json` aracılığıyla otomatik olarak keşfeder. Manuel kurulum gerekmez — sadece klonla ve Cursor'da aç.
 
-Otomatik keşif çalışmazsa manuel kur: **Cursor Settings → Plugins**'i aç, arama alanına `https://github.com/Lum1104/Understand-Anything` yapıştır ve oradan ekle.
+Otomatik keşif çalışmazsa manuel kur: **Cursor Settings → Plugins**'i aç, arama alanına `https://github.com/Egonex-AI/Understand-Anything` yapıştır ve oradan ekle.
 
 ### VS Code + GitHub Copilot
 
@@ -217,8 +217,20 @@ Tüm projelerde kullanmak için kişisel beceri olarak kurmak istersen yukarıda
 ### Copilot CLI
 
 ```bash
-copilot plugin install Lum1104/Understand-Anything:understand-anything-plugin
+copilot plugin install Egonex-AI/Understand-Anything:understand-anything-plugin
 ```
+
+### Kiro CLI / IDE
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash -s kiro
+```
+
+Kurulumdan sonra:
+- **Kiro CLI**: `kiro-cli chat --agent understand "Bu projeyi analiz et"`
+- **Kiro IDE**: Beceriler `~/.kiro/skills/` dizinine sembolik bağlantı olarak eklenir ve `understand` ajanı `~/.kiro/agents/understand.json` dosyasına yazılır, böylece IDE'yi yeniden başlattıktan sonra her ikisi de kullanılabilir.
+
+Tüm projelerde kullanmak için kişisel beceri olarak kurmak istersen yukarıdaki `install.sh`'ı `kiro` platformuyla çalıştır.
 
 ### Platform Uyumluluğu
 
@@ -238,6 +250,8 @@ copilot plugin install Lum1104/Understand-Anything:understand-anything-plugin
 | Hermes | ✅ Destekleniyor | `install.sh hermes` |
 | Cline | ✅ Destekleniyor | `install.sh cline` |
 | KIMI CLI | ✅ Destekleniyor | `install.sh kimi` |
+| Nanobot | ✅ Destekleniyor | `install.sh nanobot` |
+| Kiro CLI / IDE | ✅ Destekleniyor | `install.sh kiro` |
 
 ---
 
@@ -245,7 +259,7 @@ copilot plugin install Lum1104/Understand-Anything:understand-anything-plugin
 
 Graf yalnızca bir JSON dosyasıdır — **bir kez commit'leyin, ekip arkadaşlarınız pipeline'ı çalıştırmadan kullansın**. Yeni üye oryantasyonu, PR incelemeleri ve docs-as-code iş akışları için idealdir.
 
-> **Örnek:** [GoogleCloudPlatform/microservices-demo (fork)](https://github.com/Lum1104/microservices-demo) — commit'lenmiş grafı içeren Go / Java / Python / Node çok dilli referans projesi.
+> **Örnek:** [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo) — commit'lenmiş grafı içeren Go / Java / Python / Node çok dilli referans projesi.
 
 **Neyi commit'leyin:** `.understand-anything/` içindeki her şey, *ancak* `intermediate/` ve `diff-overlay.json` hariç (bunlar yerel geçici dosyalardır).
 
@@ -328,11 +342,11 @@ Büyük değişiklikler için lütfen önce bir issue aç ki yaklaşımı tartı
 
 ## Star Geçmişi
 
-<a href="https://www.star-history.com/?repos=Lum1104%2FUnderstand-Anything&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=Egonex-AI%2FUnderstand-Anything&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Lum1104/Understand-Anything&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Lum1104/Understand-Anything&type=date&legend=top-left" />
-   <img alt="Star Geçmişi Grafiği" src="https://api.star-history.com/image?repos=Lum1104/Understand-Anything&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Egonex-AI/Understand-Anything&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Egonex-AI/Understand-Anything&type=date&legend=top-left" />
+   <img alt="Star Geçmişi Grafiği" src="https://api.star-history.com/image?repos=Egonex-AI/Understand-Anything&type=date&legend=top-left" />
  </picture>
 </a>
 
@@ -341,5 +355,5 @@ Büyük değişiklikler için lütfen önce bir issue aç ki yaklaşımı tartı
 </p>
 
 <p align="center">
-  MIT Lisansı &copy; <a href="https://github.com/Lum1104">Lum1104</a>
+  MIT License &copy; Yuxiang Lin and Infinite Universe, Inc.
 </p>
